@@ -5,7 +5,7 @@
  * Date: 21.02.2017
  * Time: 8:47
  */
-
+/*kla*/
 require_once "../include/start.php";
 
 if($session->is_logged_in() && User::checkRights($session->user_id, 'index.php')) {
